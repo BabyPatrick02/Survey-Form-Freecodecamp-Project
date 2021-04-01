@@ -1,0 +1,69 @@
+body {
+	background: #6f6fb8;
+}
+body, textarea {
+	font-family: "Segoe UI", sans-serif;
+}
+h1, #description {
+	text-align: center;
+}
+#description {
+	font-size: 18px;
+	font-style: italic;
+}
+.container {
+	background-color: #282846;
+	width: 40%;
+	margin: 50px auto;
+	padding-top: 15px;
+	padding-left: 40px;
+	padding-bottom: 40px;
+	padding-right: 40px;
+	color: white;
+}
+#name-label, #email-label, #number-label, .text {
+	font-weight: 600;
+	margin-top: 25px;
+	margin-bottom: 8px;
+	font-size: 22px;
+}
+#name, #email, #number {
+	width: 100%;
+	height: 30px;
+	font-size: 16px;
+	padding: 5px;
+	font-family: "Segoe UI", sans-serif;
+	border-radius: 5px;
+}
+.yes, .no, .starter {
+	font-size: 19px;
+}
+#yes, #no, #charizard, #blastoise, #venusaur {
+	width: 16px;
+	height: 16px;
+}
+select {
+	width: 450px;
+	height: 40px;
+	font-size: 16px;
+	padding: 10px;
+}
+textarea {
+	padding: 10px;
+	font-size: 16px;
+	font-family: "Segoe UI", sans-serif;
+}
+button {
+	width: 100%;
+	height: 40px;
+	margin: 10px auto;
+	background: #37AF65;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+button:hover {
+	cursor: pointer;
+}

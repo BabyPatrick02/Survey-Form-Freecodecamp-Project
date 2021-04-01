@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Survey Form</title>
+	<link rel="stylesheet" href="survey_form.css">
+</head>
+<body>
+	
+	<h1 id="title">Pokefans Survey</h1>
+	<p id="description">A little survey for all pokefans</p>
+
+	<div class="container">
+		
+		<form action="" id="survey-form" method="post">
+			<!-- Name -->
+			<div class="text"><label id="name-label" for="name">Name</label></div>
+			<input required type="text" name="name" id="name" placeholder="Enter your name"> <br>
+
+			<!-- Email -->
+			<div class="text"><label id="email-label" for="email">Email</label></div>
+			<input required type="email" name="email" id="email" placeholder="Enter your email"> <br>
+
+			<!-- Age -->
+			<div class="text"><label id="number-label" for="number">Age</label></div>
+			<input required type="number" name="number" id="number" min="0" max="100" placeholder="Enter your age"> <br>
+
+			<!-- Like pokemon -->
+			<div class="text">Are you like pokemon?</div>
+			<input type="radio" name="like" id="yes" value="yes">
+			<label for="yes" class="yes">Yes</label> <br>
+			<input type="radio" name="like" id="no" value="no">
+			<label for="no" class="no">No</label> <br>
+
+			<!-- Current role -->
+			<div class="text">What yout current role?</div>
+			<select name="role" id="dropdown">
+				<option value="">Select current role</option>
+				<option value="student">Student</option>
+				<option value="full time job">Full Time Job</option>
+				<option value="other">Other</option>
+			</select> <br>
+
+			<!-- Favorite Starter -->
+			<div class="text">Favorite Starter</div>
+			<input type="checkbox" name="checkbox" id="charizard" value="charizard">
+			<label class="starter" for="charizard">Charizard</label> <br>
+			<input type="checkbox" name="checkbox" id="blastoise" value="blastoise">
+			<label class="starter" for="blastoise">Blastoise</label> <br>
+			<input type="checkbox" name="checkbox" id="venusaur" value="venusaur">
+			<label class="starter" for="venusaur">Venusaur</label> <br>
+
+			<!-- Comment -->
+			<div class="text">Any comment?</div>
+			<textarea name="comment" id="comment" cols="60" rows="8" placeholder="Enter your comment here.."></textarea> <br>
+
+			<!-- Submit -->
+			<button type="submit" id="submit">Submit</button>
+		</form>
+
+	</div>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
